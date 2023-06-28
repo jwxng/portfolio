@@ -1,5 +1,7 @@
 import './HomePage.css'
 
+import HomePageNavigation from './HomePageNavigation'
+
 const HomePage = () => {
 
     return (
@@ -7,6 +9,7 @@ const HomePage = () => {
             <p className="name-text">
                 Hi, I'm Jason Wang. Let's Chat!
             </p>
+            <HomePageNavigation />
         </div>
     );
 };
