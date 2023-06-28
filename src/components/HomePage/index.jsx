@@ -6,9 +6,8 @@ const HomePage = () => {
 
     return (
         <div className="home-page">
-            <p className="name-text">
-                Hi, I'm Jason Wang. Let's Chat!
-            </p>
+            <h1>Jason Wang</h1>
+            <p>Let's Chat!</p>
             <HomePageNavigation />
         </div>
     );
